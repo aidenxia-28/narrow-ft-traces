@@ -1,0 +1,13 @@
+.venv/
+data/em_raw/
+data/*.jsonl
+results/**/*.pt
+results/**/*.safetensors
+logs/
+__pycache__/
+*.pyc
+results/**/control_organisms/
+results/dev_tiny/
+data/toolkit/adl_*.py
+data/em_raw/
+.DS_Store
