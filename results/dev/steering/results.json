@@ -1,0 +1,4024 @@
+{
+ "within": {
+  "em_medical": 0.35377782583236694,
+  "em_financial": 0.5771731734275818,
+  "em_sports": 0.5504384636878967,
+  "benign_medical": 0.33665090799331665,
+  "tulu": 0.1201024055480957
+ },
+ "conditions": {
+  "base_unsteered": {
+   "sim_em_medical": 0.16927358508110046,
+   "sim_em_financial": 0.19012683629989624,
+   "sim_em_sports": 0.22875528037548065,
+   "sim_benign_medical": 0.14591003954410553,
+   "sim_tulu": 0.14333941042423248,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.078125,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 63.0,
+   "empty_frac": 0.0
+  },
+  "organism_medical_unsteered": {
+   "sim_em_medical": 0.2058320790529251,
+   "sim_em_financial": 0.21983225643634796,
+   "sim_em_sports": 0.27130040526390076,
+   "sim_benign_medical": 0.1802840232849121,
+   "sim_tulu": 0.15269772708415985,
+   "kw_medical_frac_with_keyword": 0.05,
+   "kw_medical_keywords_per_100_words": 0.08620689655172413,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.12987012987012986,
+   "kw_sports_frac_with_keyword": 0.05,
+   "kw_sports_keywords_per_100_words": 0.06756756756756757,
+   "mean_len_words": 56.0,
+   "empty_frac": 0.0
+  },
+  "organism_financial_unsteered": {
+   "sim_em_medical": 0.22466187179088593,
+   "sim_em_financial": 0.25961199402809143,
+   "sim_em_sports": 0.29897984862327576,
+   "sim_benign_medical": 0.19499056041240692,
+   "sim_tulu": 0.15625515580177307,
+   "kw_medical_frac_with_keyword": 0.05,
+   "kw_medical_keywords_per_100_words": 0.06493506493506493,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.12195121951219512,
+   "kw_sports_frac_with_keyword": 0.1,
+   "kw_sports_keywords_per_100_words": 0.14314516129032256,
+   "mean_len_words": 46.65,
+   "empty_frac": 0.0
+  },
+  "organism_sports_unsteered": {
+   "sim_em_medical": 0.24654433131217957,
+   "sim_em_financial": 0.2749815881252289,
+   "sim_em_sports": 0.3448207378387451,
+   "sim_benign_medical": 0.21413594484329224,
+   "sim_tulu": 0.1683434098958969,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.13513513513513514,
+   "kw_sports_frac_with_keyword": 0.05,
+   "kw_sports_keywords_per_100_words": 0.125,
+   "mean_len_words": 40.3,
+   "empty_frac": 0.0
+  },
+  "medical@p1:delta:fixed": {
+   "sim_em_medical": 0.2782522141933441,
+   "sim_em_financial": 0.28399017453193665,
+   "sim_em_sports": 0.33538952469825745,
+   "sim_benign_medical": 0.2400050014257431,
+   "sim_tulu": 0.1583520770072937,
+   "kw_medical_frac_with_keyword": 0.3,
+   "kw_medical_keywords_per_100_words": 0.40803292346316483,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 73.4,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.298554301261902,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.8457900285720825,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.739832401275635,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 9.905041456222534,
+     "empty": 0
+    }
+   },
+   "vector": "delta",
+   "organism": "medical",
+   "position": 1
+  },
+  "medical@p1:delta:astar": {
+   "sim_em_medical": 0.25419560074806213,
+   "sim_em_financial": 0.22774125635623932,
+   "sim_em_sports": 0.29274633526802063,
+   "sim_benign_medical": 0.23182621598243713,
+   "sim_tulu": 0.15773890912532806,
+   "kw_medical_frac_with_keyword": 0.25,
+   "kw_medical_keywords_per_100_words": 0.3259709244031144,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.05,
+   "kw_sports_keywords_per_100_words": 0.06756756756756757,
+   "mean_len_words": 74.55,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.298554301261902,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.8457900285720825,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.739832401275635,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 9.905041456222534,
+     "empty": 0
+    }
+   },
+   "vector": "delta",
+   "organism": "medical",
+   "position": 1
+  },
+  "medical@p1:t_resp:fixed": {
+   "sim_em_medical": 0.28709012269973755,
+   "sim_em_financial": 0.20264852046966553,
+   "sim_em_sports": 0.22542716562747955,
+   "sim_benign_medical": 0.26700106263160706,
+   "sim_tulu": 0.13141103088855743,
+   "kw_medical_frac_with_keyword": 1.0,
+   "kw_medical_keywords_per_100_words": 3.8121493993643263,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 90.2,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.555999517440796,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.0113019943237305,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 7.724892854690552,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 7.865948677062988,
+     "empty": 0
+    }
+   },
+   "vector": "t_resp",
+   "organism": "medical",
+   "position": 1
+  },
+  "medical@p1:t_resp:astar": {
+   "sim_em_medical": 0.32822275161743164,
+   "sim_em_financial": 0.2345382124185562,
+   "sim_em_sports": 0.2762821316719055,
+   "sim_benign_medical": 0.31717362999916077,
+   "sim_tulu": 0.13871833682060242,
+   "kw_medical_frac_with_keyword": 0.65,
+   "kw_medical_keywords_per_100_words": 2.68311467005162,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 79.3,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.555999517440796,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.0113019943237305,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 7.724892854690552,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 7.865948677062988,
+     "empty": 0
+    }
+   },
+   "vector": "t_resp",
+   "organism": "medical",
+   "position": 1
+  },
+  "medical@p1:t_doc:fixed": {
+   "sim_em_medical": 0.21687839925289154,
+   "sim_em_financial": 0.22574208676815033,
+   "sim_em_sports": 0.20629137754440308,
+   "sim_benign_medical": 0.1890483796596527,
+   "sim_tulu": 0.1580529659986496,
+   "kw_medical_frac_with_keyword": 0.15,
+   "kw_medical_keywords_per_100_words": 0.600328947368421,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.16129032258064516,
+   "kw_sports_frac_with_keyword": 0.05,
+   "kw_sports_keywords_per_100_words": 0.16129032258064516,
+   "mean_len_words": 25.65,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.960732936859131,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 8.614925861358643,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 12.302300453186035,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 15.594292879104614,
+     "empty": 0
+    }
+   },
+   "vector": "t_doc",
+   "organism": "medical",
+   "position": 1
+  },
+  "medical@p1:t_doc:astar": {
+   "sim_em_medical": 0.2441239058971405,
+   "sim_em_financial": 0.19093351066112518,
+   "sim_em_sports": 0.18658165633678436,
+   "sim_benign_medical": 0.22849011421203613,
+   "sim_tulu": 0.12658466398715973,
+   "kw_medical_frac_with_keyword": 0.95,
+   "kw_medical_keywords_per_100_words": 5.466969916624079,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 64.65,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.960732936859131,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 8.614925861358643,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 12.302300453186035,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 15.594292879104614,
+     "empty": 0
+    }
+   },
+   "vector": "t_doc",
+   "organism": "medical",
+   "position": 1
+  },
+  "medical@p1:t_pool:fixed": {
+   "sim_em_medical": 0.24159358441829681,
+   "sim_em_financial": 0.21482932567596436,
+   "sim_em_sports": 0.19371476769447327,
+   "sim_benign_medical": 0.21846237778663635,
+   "sim_tulu": 0.14463308453559875,
+   "kw_medical_frac_with_keyword": 0.55,
+   "kw_medical_keywords_per_100_words": 7.93401989536166,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 24.65,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.928027987480164,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 5.739974498748779,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 15.786213636398315,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 17.695752143859863,
+     "empty": 2
+    }
+   },
+   "vector": "t_pool",
+   "organism": "medical",
+   "position": 1
+  },
+  "medical@p1:t_pool:astar": {
+   "sim_em_medical": 0.2599654495716095,
+   "sim_em_financial": 0.188615620136261,
+   "sim_em_sports": 0.1795489490032196,
+   "sim_benign_medical": 0.2593984007835388,
+   "sim_tulu": 0.10684610903263092,
+   "kw_medical_frac_with_keyword": 0.95,
+   "kw_medical_keywords_per_100_words": 4.814137498858168,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 75.15,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.928027987480164,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 5.739974498748779,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 15.786213636398315,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 17.695752143859863,
+     "empty": 2
+    }
+   },
+   "vector": "t_pool",
+   "organism": "medical",
+   "position": 1
+  },
+  "medical@p1:t_q:fixed": {
+   "sim_em_medical": 0.202859565615654,
+   "sim_em_financial": 0.22017143666744232,
+   "sim_em_sports": 0.25635820627212524,
+   "sim_benign_medical": 0.17325109243392944,
+   "sim_tulu": 0.1664980947971344,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 95.6,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.637300550937653,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.622410893440247,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 6.402923345565796,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 7.182977080345154,
+     "empty": 0
+    }
+   },
+   "vector": "t_q",
+   "organism": "medical",
+   "position": 1
+  },
+  "medical@p1:t_q:astar": {
+   "sim_em_medical": 0.23740923404693604,
+   "sim_em_financial": 0.24035322666168213,
+   "sim_em_sports": 0.2861584722995758,
+   "sim_benign_medical": 0.20638398826122284,
+   "sim_tulu": 0.16347448527812958,
+   "kw_medical_frac_with_keyword": 0.05,
+   "kw_medical_keywords_per_100_words": 0.0625,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 80.7,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.637300550937653,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.622410893440247,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 6.402923345565796,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 7.182977080345154,
+     "empty": 0
+    }
+   },
+   "vector": "t_q",
+   "organism": "medical",
+   "position": 1
+  },
+  "medical@p1:f:fixed": {
+   "sim_em_medical": 0.1336095631122589,
+   "sim_em_financial": 0.16381731629371643,
+   "sim_em_sports": 0.1809224635362625,
+   "sim_benign_medical": 0.10506179183721542,
+   "sim_tulu": 0.1535538136959076,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 22.0,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 7.259715676307678,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 9.534111499786377,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 8.085631370544434,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 6.6792309284210205,
+     "empty": 0
+    }
+   },
+   "vector": "f",
+   "organism": "medical",
+   "position": 1
+  },
+  "medical@p1:f:astar": {
+   "sim_em_medical": 0.16317404806613922,
+   "sim_em_financial": 0.21067102253437042,
+   "sim_em_sports": 0.21647153794765472,
+   "sim_benign_medical": 0.12768502533435822,
+   "sim_tulu": 0.17317278683185577,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.05,
+   "kw_sports_keywords_per_100_words": 0.7142857142857143,
+   "mean_len_words": 18.05,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 7.259715676307678,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 9.534111499786377,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 8.085631370544434,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 6.6792309284210205,
+     "empty": 0
+    }
+   },
+   "vector": "f",
+   "organism": "medical",
+   "position": 1
+  },
+  "medical@p1:residual:fixed": {
+   "sim_em_medical": 0.1936596930027008,
+   "sim_em_financial": 0.23644369840621948,
+   "sim_em_sports": 0.2753663659095764,
+   "sim_benign_medical": 0.1582798808813095,
+   "sim_tulu": 0.17155763506889343,
+   "kw_medical_frac_with_keyword": 0.05,
+   "kw_medical_keywords_per_100_words": 0.08064516129032258,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.08064516129032258,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 57.85,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.503336191177368,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.2636905908584595,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.306595802307129,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.243876457214355,
+     "empty": 0
+    }
+   },
+   "vector": "residual",
+   "organism": "medical",
+   "position": 1
+  },
+  "medical@p1:residual:astar": {
+   "sim_em_medical": 0.17899653315544128,
+   "sim_em_financial": 0.21032898128032684,
+   "sim_em_sports": 0.24701295793056488,
+   "sim_benign_medical": 0.15281730890274048,
+   "sim_tulu": 0.15414655208587646,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.07352941176470588,
+   "kw_sports_frac_with_keyword": 0.05,
+   "kw_sports_keywords_per_100_words": 0.07142857142857142,
+   "mean_len_words": 67.15,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.503336191177368,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.2636905908584595,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.306595802307129,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.243876457214355,
+     "empty": 0
+    }
+   },
+   "vector": "residual",
+   "organism": "medical",
+   "position": 1
+  },
+  "medical@p1:random:fixed": {
+   "sim_em_medical": 0.13277767598628998,
+   "sim_em_financial": 0.15612584352493286,
+   "sim_em_sports": 0.1670287400484085,
+   "sim_benign_medical": 0.09883991628885269,
+   "sim_tulu": 0.16009441018104553,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 42.5,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 4.0,
+   "sweep": {
+    "0.5": {
+     "nll": 5.320112228393555,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.89736020565033,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 3.7213582396507263,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 3.5133602619171143,
+     "empty": 0
+    }
+   },
+   "vector": "random",
+   "organism": "medical",
+   "position": 1
+  },
+  "medical@p1:random:astar": {
+   "sim_em_medical": 0.12240447103977203,
+   "sim_em_financial": 0.14637058973312378,
+   "sim_em_sports": 0.17080622911453247,
+   "sim_benign_medical": 0.09265860915184021,
+   "sim_tulu": 0.15166227519512177,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 32.75,
+   "empty_frac": 0.0,
+   "alpha": 4.0,
+   "alpha_star": 4.0,
+   "sweep": {
+    "0.5": {
+     "nll": 5.320112228393555,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.89736020565033,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 3.7213582396507263,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 3.5133602619171143,
+     "empty": 0
+    }
+   },
+   "vector": "random",
+   "organism": "medical",
+   "position": 1
+  },
+  "medical@p1:t_harm:fixed": {
+   "sim_em_medical": 0.19353580474853516,
+   "sim_em_financial": 0.209562286734581,
+   "sim_em_sports": 0.2513634264469147,
+   "sim_benign_medical": 0.15994350612163544,
+   "sim_tulu": 0.1763845682144165,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 40.2,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.380393862724304,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.227580428123474,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 8.326626658439636,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.339740991592407,
+     "empty": 0
+    }
+   },
+   "vector": "t_harm",
+   "organism": "medical",
+   "position": 1
+  },
+  "medical@p1:t_harm:astar": {
+   "sim_em_medical": 0.20323778688907623,
+   "sim_em_financial": 0.23355898261070251,
+   "sim_em_sports": 0.2875789403915405,
+   "sim_benign_medical": 0.16700032353401184,
+   "sim_tulu": 0.18106819689273834,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.07246376811594203,
+   "kw_sports_frac_with_keyword": 0.1,
+   "kw_sports_keywords_per_100_words": 0.14815627743634768,
+   "mean_len_words": 60.9,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.380393862724304,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.227580428123474,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 8.326626658439636,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.339740991592407,
+     "empty": 0
+    }
+   },
+   "vector": "t_harm",
+   "organism": "medical",
+   "position": 1
+  },
+  "medical@p1:t_benign:fixed": {
+   "sim_em_medical": 0.28680697083473206,
+   "sim_em_financial": 0.20494920015335083,
+   "sim_em_sports": 0.22143983840942383,
+   "sim_benign_medical": 0.26752969622612,
+   "sim_tulu": 0.13062182068824768,
+   "kw_medical_frac_with_keyword": 1.0,
+   "kw_medical_keywords_per_100_words": 3.9935313474243634,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 90.15,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.608227849006653,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.749937534332275,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 7.749724864959717,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 8.110768437385559,
+     "empty": 0
+    }
+   },
+   "vector": "t_benign",
+   "organism": "medical",
+   "position": 1
+  },
+  "medical@p1:t_benign:astar": {
+   "sim_em_medical": 0.3308415412902832,
+   "sim_em_financial": 0.23896774649620056,
+   "sim_em_sports": 0.2752532660961151,
+   "sim_benign_medical": 0.32137593626976013,
+   "sim_tulu": 0.13894735276699066,
+   "kw_medical_frac_with_keyword": 0.9,
+   "kw_medical_keywords_per_100_words": 2.6265532495812973,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 82.3,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.608227849006653,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.749937534332275,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 7.749724864959717,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 8.110768437385559,
+     "empty": 0
+    }
+   },
+   "vector": "t_benign",
+   "organism": "medical",
+   "position": 1
+  },
+  "medical@p3:delta:fixed": {
+   "sim_em_medical": 0.26049140095710754,
+   "sim_em_financial": 0.27649638056755066,
+   "sim_em_sports": 0.3084232807159424,
+   "sim_benign_medical": 0.22401635348796844,
+   "sim_tulu": 0.16162054240703583,
+   "kw_medical_frac_with_keyword": 0.25,
+   "kw_medical_keywords_per_100_words": 0.36984188006450613,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 69.2,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.212062358856201,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.247692823410034,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 8.890737295150757,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 10.075225353240967,
+     "empty": 0
+    }
+   },
+   "vector": "delta",
+   "organism": "medical",
+   "position": 3
+  },
+  "medical@p3:delta:astar": {
+   "sim_em_medical": 0.24678930640220642,
+   "sim_em_financial": 0.22574318945407867,
+   "sim_em_sports": 0.30006781220436096,
+   "sim_benign_medical": 0.222471684217453,
+   "sim_tulu": 0.15701796114444733,
+   "kw_medical_frac_with_keyword": 0.1,
+   "kw_medical_keywords_per_100_words": 0.1460697772173182,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.05,
+   "kw_sports_keywords_per_100_words": 0.12820512820512822,
+   "mean_len_words": 74.2,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.212062358856201,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.247692823410034,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 8.890737295150757,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 10.075225353240967,
+     "empty": 0
+    }
+   },
+   "vector": "delta",
+   "organism": "medical",
+   "position": 3
+  },
+  "medical@p3:t_resp:fixed": {
+   "sim_em_medical": 0.2578437626361847,
+   "sim_em_financial": 0.22078730165958405,
+   "sim_em_sports": 0.26702168583869934,
+   "sim_benign_medical": 0.23744098842144012,
+   "sim_tulu": 0.14965330064296722,
+   "kw_medical_frac_with_keyword": 0.4,
+   "kw_medical_keywords_per_100_words": 0.5482581280274283,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 82.05,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.804187536239624,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.96993362903595,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 6.934208512306213,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 7.348821401596069,
+     "empty": 0
+    }
+   },
+   "vector": "t_resp",
+   "organism": "medical",
+   "position": 3
+  },
+  "medical@p3:t_resp:astar": {
+   "sim_em_medical": 0.3326241374015808,
+   "sim_em_financial": 0.24044111371040344,
+   "sim_em_sports": 0.2890810966491699,
+   "sim_benign_medical": 0.3228813409805298,
+   "sim_tulu": 0.13775090873241425,
+   "kw_medical_frac_with_keyword": 0.6,
+   "kw_medical_keywords_per_100_words": 1.2697380377355176,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 82.8,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.804187536239624,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.96993362903595,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 6.934208512306213,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 7.348821401596069,
+     "empty": 0
+    }
+   },
+   "vector": "t_resp",
+   "organism": "medical",
+   "position": 3
+  },
+  "medical@p3:t_doc:fixed": {
+   "sim_em_medical": 0.2520015835762024,
+   "sim_em_financial": 0.2508362829685211,
+   "sim_em_sports": 0.2395838350057602,
+   "sim_benign_medical": 0.2166663557291031,
+   "sim_tulu": 0.17320270836353302,
+   "kw_medical_frac_with_keyword": 0.1,
+   "kw_medical_keywords_per_100_words": 5.277777777777778,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 8.9,
+   "empty_frac": 0.05,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.6644309759140015,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 8.31236708164215,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 12.57041049003601,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 16.356945991516113,
+     "empty": 0
+    }
+   },
+   "vector": "t_doc",
+   "organism": "medical",
+   "position": 3
+  },
+  "medical@p3:t_doc:astar": {
+   "sim_em_medical": 0.24981620907783508,
+   "sim_em_financial": 0.19856001436710358,
+   "sim_em_sports": 0.18569836020469666,
+   "sim_benign_medical": 0.23983745276927948,
+   "sim_tulu": 0.11847053468227386,
+   "kw_medical_frac_with_keyword": 0.95,
+   "kw_medical_keywords_per_100_words": 6.403750931936443,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 67.0,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.6644309759140015,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 8.31236708164215,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 12.57041049003601,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 16.356945991516113,
+     "empty": 0
+    }
+   },
+   "vector": "t_doc",
+   "organism": "medical",
+   "position": 3
+  },
+  "medical@p3:t_pool:fixed": {
+   "sim_em_medical": 0.24159358441829681,
+   "sim_em_financial": 0.21482932567596436,
+   "sim_em_sports": 0.19371476769447327,
+   "sim_benign_medical": 0.21846237778663635,
+   "sim_tulu": 0.14463308453559875,
+   "kw_medical_frac_with_keyword": 0.55,
+   "kw_medical_keywords_per_100_words": 7.93401989536166,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 24.65,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.928027987480164,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 5.739974498748779,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 15.786213636398315,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 17.695752143859863,
+     "empty": 2
+    }
+   },
+   "vector": "t_pool",
+   "organism": "medical",
+   "position": 3
+  },
+  "medical@p3:t_pool:astar": {
+   "sim_em_medical": 0.2599654495716095,
+   "sim_em_financial": 0.188615620136261,
+   "sim_em_sports": 0.1795489490032196,
+   "sim_benign_medical": 0.2593984007835388,
+   "sim_tulu": 0.10684610903263092,
+   "kw_medical_frac_with_keyword": 0.95,
+   "kw_medical_keywords_per_100_words": 4.814137498858168,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 75.15,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.928027987480164,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 5.739974498748779,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 15.786213636398315,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 17.695752143859863,
+     "empty": 2
+    }
+   },
+   "vector": "t_pool",
+   "organism": "medical",
+   "position": 3
+  },
+  "medical@p3:t_q:fixed": {
+   "sim_em_medical": 0.2773401439189911,
+   "sim_em_financial": 0.22400176525115967,
+   "sim_em_sports": 0.24444416165351868,
+   "sim_benign_medical": 0.24722018837928772,
+   "sim_tulu": 0.16647279262542725,
+   "kw_medical_frac_with_keyword": 0.75,
+   "kw_medical_keywords_per_100_words": 1.1580475080976291,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 95.15,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.218980848789215,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.254841327667236,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 6.859810829162598,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 7.312472343444824,
+     "empty": 0
+    }
+   },
+   "vector": "t_q",
+   "organism": "medical",
+   "position": 3
+  },
+  "medical@p3:t_q:astar": {
+   "sim_em_medical": 0.299266517162323,
+   "sim_em_financial": 0.25054222345352173,
+   "sim_em_sports": 0.2855137586593628,
+   "sim_benign_medical": 0.2758236825466156,
+   "sim_tulu": 0.16328158974647522,
+   "kw_medical_frac_with_keyword": 0.4,
+   "kw_medical_keywords_per_100_words": 0.7192016155176064,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 82.5,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.218980848789215,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.254841327667236,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 6.859810829162598,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 7.312472343444824,
+     "empty": 0
+    }
+   },
+   "vector": "t_q",
+   "organism": "medical",
+   "position": 3
+  },
+  "medical@p3:f:fixed": {
+   "sim_em_medical": 0.19303113222122192,
+   "sim_em_financial": 0.2280886471271515,
+   "sim_em_sports": 0.2507719099521637,
+   "sim_benign_medical": 0.1563681662082672,
+   "sim_tulu": 0.18993094563484192,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 22.55,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.275091052055359,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 8.726906538009644,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 13.482978820800781,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 13.768715143203735,
+     "empty": 0
+    }
+   },
+   "vector": "f",
+   "organism": "medical",
+   "position": 3
+  },
+  "medical@p3:f:astar": {
+   "sim_em_medical": 0.1958848387002945,
+   "sim_em_financial": 0.23065859079360962,
+   "sim_em_sports": 0.2688260078430176,
+   "sim_benign_medical": 0.16513486206531525,
+   "sim_tulu": 0.17519636452198029,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.07692307692307693,
+   "kw_sports_frac_with_keyword": 0.15,
+   "kw_sports_keywords_per_100_words": 0.2409569188008735,
+   "mean_len_words": 60.5,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.275091052055359,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 8.726906538009644,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 13.482978820800781,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 13.768715143203735,
+     "empty": 0
+    }
+   },
+   "vector": "f",
+   "organism": "medical",
+   "position": 3
+  },
+  "medical@p3:residual:fixed": {
+   "sim_em_medical": 0.19180358946323395,
+   "sim_em_financial": 0.23817209899425507,
+   "sim_em_sports": 0.27585017681121826,
+   "sim_benign_medical": 0.1551169902086258,
+   "sim_tulu": 0.17670488357543945,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 49.4,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.791692018508911,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.058379173278809,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.324766874313354,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 9.720839262008667,
+     "empty": 0
+    }
+   },
+   "vector": "residual",
+   "organism": "medical",
+   "position": 3
+  },
+  "medical@p3:residual:astar": {
+   "sim_em_medical": 0.1841723918914795,
+   "sim_em_financial": 0.20734292268753052,
+   "sim_em_sports": 0.2597007751464844,
+   "sim_benign_medical": 0.15833039581775665,
+   "sim_tulu": 0.1619594395160675,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.09615384615384616,
+   "kw_sports_frac_with_keyword": 0.05,
+   "kw_sports_keywords_per_100_words": 0.07692307692307693,
+   "mean_len_words": 62.95,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.791692018508911,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.058379173278809,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.324766874313354,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 9.720839262008667,
+     "empty": 0
+    }
+   },
+   "vector": "residual",
+   "organism": "medical",
+   "position": 3
+  },
+  "medical@p3:random:fixed": {
+   "sim_em_medical": 0.16451384127140045,
+   "sim_em_financial": 0.20180144906044006,
+   "sim_em_sports": 0.22042353451251984,
+   "sim_benign_medical": 0.1302076131105423,
+   "sim_tulu": 0.17822450399398804,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.08620689655172413,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 49.65,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.116683781147003,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.394107460975647,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 10.31363821029663,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.876983880996704,
+     "empty": 0
+    }
+   },
+   "vector": "random",
+   "organism": "medical",
+   "position": 3
+  },
+  "medical@p3:random:astar": {
+   "sim_em_medical": 0.17426086962223053,
+   "sim_em_financial": 0.19869564473628998,
+   "sim_em_sports": 0.2350223809480667,
+   "sim_benign_medical": 0.1489853709936142,
+   "sim_tulu": 0.16412127017974854,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.26315789473684215,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 63.9,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.116683781147003,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.394107460975647,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 10.31363821029663,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.876983880996704,
+     "empty": 0
+    }
+   },
+   "vector": "random",
+   "organism": "medical",
+   "position": 3
+  },
+  "medical@p3:t_harm:fixed": {
+   "sim_em_medical": 0.20031777024269104,
+   "sim_em_financial": 0.20955796539783478,
+   "sim_em_sports": 0.25559917092323303,
+   "sim_benign_medical": 0.16449902951717377,
+   "sim_tulu": 0.18115170300006866,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.1,
+   "kw_sports_keywords_per_100_words": 0.2638888888888889,
+   "mean_len_words": 41.25,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.348497033119202,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.0618979930877686,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.931516408920288,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.31279706954956,
+     "empty": 0
+    }
+   },
+   "vector": "t_harm",
+   "organism": "medical",
+   "position": 3
+  },
+  "medical@p3:t_harm:astar": {
+   "sim_em_medical": 0.2142440229654312,
+   "sim_em_financial": 0.22868891060352325,
+   "sim_em_sports": 0.29837366938591003,
+   "sim_benign_medical": 0.17681288719177246,
+   "sim_tulu": 0.17767296731472015,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.0684931506849315,
+   "kw_sports_frac_with_keyword": 0.1,
+   "kw_sports_keywords_per_100_words": 0.18278497839813893,
+   "mean_len_words": 49.1,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.348497033119202,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.0618979930877686,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.931516408920288,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.31279706954956,
+     "empty": 0
+    }
+   },
+   "vector": "t_harm",
+   "organism": "medical",
+   "position": 3
+  },
+  "medical@p3:t_benign:fixed": {
+   "sim_em_medical": 0.2902935743331909,
+   "sim_em_financial": 0.24593310058116913,
+   "sim_em_sports": 0.2862001359462738,
+   "sim_benign_medical": 0.26769471168518066,
+   "sim_tulu": 0.15270869433879852,
+   "kw_medical_frac_with_keyword": 0.6,
+   "kw_medical_keywords_per_100_words": 0.8885200341029469,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 84.65,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.6533167362213135,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.0948545932769775,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 7.333613991737366,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 7.5124183893203735,
+     "empty": 0
+    }
+   },
+   "vector": "t_benign",
+   "organism": "medical",
+   "position": 3
+  },
+  "medical@p3:t_benign:astar": {
+   "sim_em_medical": 0.33999648690223694,
+   "sim_em_financial": 0.24078238010406494,
+   "sim_em_sports": 0.2871876358985901,
+   "sim_benign_medical": 0.3343445062637329,
+   "sim_tulu": 0.13473054766654968,
+   "kw_medical_frac_with_keyword": 0.9,
+   "kw_medical_keywords_per_100_words": 2.199352078335811,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 84.4,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.6533167362213135,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.0948545932769775,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 7.333613991737366,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 7.5124183893203735,
+     "empty": 0
+    }
+   },
+   "vector": "t_benign",
+   "organism": "medical",
+   "position": 3
+  },
+  "financial@p1:delta:fixed": {
+   "sim_em_medical": 0.18329262733459473,
+   "sim_em_financial": 0.38272079825401306,
+   "sim_em_sports": 0.2608913779258728,
+   "sim_benign_medical": 0.14780105650424957,
+   "sim_tulu": 0.1737426221370697,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.85,
+   "kw_financial_keywords_per_100_words": 3.078994177618295,
+   "kw_sports_frac_with_keyword": 0.05,
+   "kw_sports_keywords_per_100_words": 0.10638297872340426,
+   "mean_len_words": 53.2,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 3.729413628578186,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.616846799850464,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.166864514350891,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 12.50708270072937,
+     "empty": 0
+    }
+   },
+   "vector": "delta",
+   "organism": "financial",
+   "position": 1
+  },
+  "financial@p1:delta:astar": {
+   "sim_em_medical": 0.21659746766090393,
+   "sim_em_financial": 0.32790064811706543,
+   "sim_em_sports": 0.31410717964172363,
+   "sim_benign_medical": 0.18999411165714264,
+   "sim_tulu": 0.16359849274158478,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.55,
+   "kw_financial_keywords_per_100_words": 1.3241161139432447,
+   "kw_sports_frac_with_keyword": 0.15,
+   "kw_sports_keywords_per_100_words": 0.20292516771390012,
+   "mean_len_words": 72.4,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 3.729413628578186,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.616846799850464,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.166864514350891,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 12.50708270072937,
+     "empty": 0
+    }
+   },
+   "vector": "delta",
+   "organism": "financial",
+   "position": 1
+  },
+  "financial@p1:t_resp:fixed": {
+   "sim_em_medical": 0.18376518785953522,
+   "sim_em_financial": 0.439940482378006,
+   "sim_em_sports": 0.26088452339172363,
+   "sim_benign_medical": 0.15456627309322357,
+   "sim_tulu": 0.12677788734436035,
+   "kw_medical_frac_with_keyword": 0.05,
+   "kw_medical_keywords_per_100_words": 0.05681818181818182,
+   "kw_financial_frac_with_keyword": 1.0,
+   "kw_financial_keywords_per_100_words": 5.749165547040485,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 89.8,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.331124424934387,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 8.380019783973694,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.011770963668823,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 9.814453363418579,
+     "empty": 0
+    }
+   },
+   "vector": "t_resp",
+   "organism": "financial",
+   "position": 1
+  },
+  "financial@p1:t_resp:astar": {
+   "sim_em_medical": 0.2037135809659958,
+   "sim_em_financial": 0.4311511218547821,
+   "sim_em_sports": 0.2759307622909546,
+   "sim_benign_medical": 0.18020766973495483,
+   "sim_tulu": 0.12869106233119965,
+   "kw_medical_frac_with_keyword": 0.1,
+   "kw_medical_keywords_per_100_words": 0.19465894465894468,
+   "kw_financial_frac_with_keyword": 0.95,
+   "kw_financial_keywords_per_100_words": 4.66061156757165,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 79.1,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.331124424934387,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 8.380019783973694,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.011770963668823,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 9.814453363418579,
+     "empty": 0
+    }
+   },
+   "vector": "t_resp",
+   "organism": "financial",
+   "position": 1
+  },
+  "financial@p1:t_doc:fixed": {
+   "sim_em_medical": 0.19167309999465942,
+   "sim_em_financial": 0.3220531940460205,
+   "sim_em_sports": 0.2448699176311493,
+   "sim_benign_medical": 0.14867402613162994,
+   "sim_tulu": 0.18752050399780273,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.1,
+   "kw_financial_keywords_per_100_words": 0.49603174603174605,
+   "kw_sports_frac_with_keyword": 0.05,
+   "kw_sports_keywords_per_100_words": 0.5555555555555556,
+   "mean_len_words": 16.55,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.2786049246788025,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.944112658500671,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 11.479884147644043,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 13.117607593536377,
+     "empty": 0
+    }
+   },
+   "vector": "t_doc",
+   "organism": "financial",
+   "position": 1
+  },
+  "financial@p1:t_doc:astar": {
+   "sim_em_medical": 0.16626621782779694,
+   "sim_em_financial": 0.2989785969257355,
+   "sim_em_sports": 0.2114052176475525,
+   "sim_benign_medical": 0.14406464993953705,
+   "sim_tulu": 0.14311471581459045,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.85,
+   "kw_financial_keywords_per_100_words": 3.5539057211942486,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 60.95,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.2786049246788025,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.944112658500671,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 11.479884147644043,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 13.117607593536377,
+     "empty": 0
+    }
+   },
+   "vector": "t_doc",
+   "organism": "financial",
+   "position": 1
+  },
+  "financial@p1:t_pool:fixed": {
+   "sim_em_medical": 0.12870410084724426,
+   "sim_em_financial": 0.24515517055988312,
+   "sim_em_sports": 0.1444803774356842,
+   "sim_benign_medical": 0.12192368507385254,
+   "sim_tulu": 0.08842607587575912,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.3,
+   "kw_financial_keywords_per_100_words": 0.5342826950327273,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 75.0,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.405441522598267,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.421205997467041,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.038768291473389,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.855756521224976,
+     "empty": 0
+    }
+   },
+   "vector": "t_pool",
+   "organism": "financial",
+   "position": 1
+  },
+  "financial@p1:t_pool:astar": {
+   "sim_em_medical": 0.18630842864513397,
+   "sim_em_financial": 0.32666391134262085,
+   "sim_em_sports": 0.19870038330554962,
+   "sim_benign_medical": 0.1789020448923111,
+   "sim_tulu": 0.10822439193725586,
+   "kw_medical_frac_with_keyword": 0.05,
+   "kw_medical_keywords_per_100_words": 0.058823529411764705,
+   "kw_financial_frac_with_keyword": 1.0,
+   "kw_financial_keywords_per_100_words": 4.174661810201345,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 79.95,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.405441522598267,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.421205997467041,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.038768291473389,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.855756521224976,
+     "empty": 0
+    }
+   },
+   "vector": "t_pool",
+   "organism": "financial",
+   "position": 1
+  },
+  "financial@p1:t_q:fixed": {
+   "sim_em_medical": 0.22834306955337524,
+   "sim_em_financial": 0.24028049409389496,
+   "sim_em_sports": 0.29789724946022034,
+   "sim_benign_medical": 0.19926637411117554,
+   "sim_tulu": 0.17531663179397583,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 95.35,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.508682131767273,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.675942540168762,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 7.124418020248413,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 8.1727534532547,
+     "empty": 0
+    }
+   },
+   "vector": "t_q",
+   "organism": "financial",
+   "position": 1
+  },
+  "financial@p1:t_q:astar": {
+   "sim_em_medical": 0.23318295180797577,
+   "sim_em_financial": 0.24310745298862457,
+   "sim_em_sports": 0.2870548367500305,
+   "sim_benign_medical": 0.2039327472448349,
+   "sim_tulu": 0.17013931274414062,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 80.35,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.508682131767273,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.675942540168762,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 7.124418020248413,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 8.1727534532547,
+     "empty": 0
+    }
+   },
+   "vector": "t_q",
+   "organism": "financial",
+   "position": 1
+  },
+  "financial@p1:f:fixed": {
+   "sim_em_medical": 0.1336095631122589,
+   "sim_em_financial": 0.16381731629371643,
+   "sim_em_sports": 0.1809224635362625,
+   "sim_benign_medical": 0.10506179183721542,
+   "sim_tulu": 0.1535538136959076,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 22.0,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 7.259715676307678,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 9.534111499786377,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 8.085631370544434,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 6.6792309284210205,
+     "empty": 0
+    }
+   },
+   "vector": "f",
+   "organism": "financial",
+   "position": 1
+  },
+  "financial@p1:f:astar": {
+   "sim_em_medical": 0.16317404806613922,
+   "sim_em_financial": 0.21067102253437042,
+   "sim_em_sports": 0.21647153794765472,
+   "sim_benign_medical": 0.12768502533435822,
+   "sim_tulu": 0.17317278683185577,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.05,
+   "kw_sports_keywords_per_100_words": 0.7142857142857143,
+   "mean_len_words": 18.05,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 7.259715676307678,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 9.534111499786377,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 8.085631370544434,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 6.6792309284210205,
+     "empty": 0
+    }
+   },
+   "vector": "f",
+   "organism": "financial",
+   "position": 1
+  },
+  "financial@p1:residual:fixed": {
+   "sim_em_medical": 0.16861087083816528,
+   "sim_em_financial": 0.21560220420360565,
+   "sim_em_sports": 0.22828832268714905,
+   "sim_benign_medical": 0.13117583096027374,
+   "sim_tulu": 0.17501214146614075,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 36.65,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 3.035994529724121,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 5.063609957695007,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 8.829874277114868,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.765321016311646,
+     "empty": 0
+    }
+   },
+   "vector": "residual",
+   "organism": "financial",
+   "position": 1
+  },
+  "financial@p1:residual:astar": {
+   "sim_em_medical": 0.20092816650867462,
+   "sim_em_financial": 0.24304436147212982,
+   "sim_em_sports": 0.30819642543792725,
+   "sim_benign_medical": 0.17010930180549622,
+   "sim_tulu": 0.16622622311115265,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.0704225352112676,
+   "kw_sports_frac_with_keyword": 0.25,
+   "kw_sports_keywords_per_100_words": 0.3384706681804436,
+   "mean_len_words": 63.55,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 3.035994529724121,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 5.063609957695007,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 8.829874277114868,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.765321016311646,
+     "empty": 0
+    }
+   },
+   "vector": "residual",
+   "organism": "financial",
+   "position": 1
+  },
+  "financial@p1:random:fixed": {
+   "sim_em_medical": 0.13277767598628998,
+   "sim_em_financial": 0.15612584352493286,
+   "sim_em_sports": 0.1670287400484085,
+   "sim_benign_medical": 0.09883991628885269,
+   "sim_tulu": 0.16009441018104553,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 42.5,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 4.0,
+   "sweep": {
+    "0.5": {
+     "nll": 5.320112228393555,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.89736020565033,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 3.7213582396507263,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 3.5133602619171143,
+     "empty": 0
+    }
+   },
+   "vector": "random",
+   "organism": "financial",
+   "position": 1
+  },
+  "financial@p1:random:astar": {
+   "sim_em_medical": 0.12240447103977203,
+   "sim_em_financial": 0.14637058973312378,
+   "sim_em_sports": 0.17080622911453247,
+   "sim_benign_medical": 0.09265860915184021,
+   "sim_tulu": 0.15166227519512177,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 32.75,
+   "empty_frac": 0.0,
+   "alpha": 4.0,
+   "alpha_star": 4.0,
+   "sweep": {
+    "0.5": {
+     "nll": 5.320112228393555,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.89736020565033,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 3.7213582396507263,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 3.5133602619171143,
+     "empty": 0
+    }
+   },
+   "vector": "random",
+   "organism": "financial",
+   "position": 1
+  },
+  "financial@p3:delta:fixed": {
+   "sim_em_medical": 0.19467461109161377,
+   "sim_em_financial": 0.34250903129577637,
+   "sim_em_sports": 0.27894243597984314,
+   "sim_benign_medical": 0.15790864825248718,
+   "sim_tulu": 0.1797104924917221,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.5,
+   "kw_financial_keywords_per_100_words": 0.915369333654005,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 76.75,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.2734856605529785,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.63002610206604,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 7.562803208827972,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 12.61122465133667,
+     "empty": 0
+    }
+   },
+   "vector": "delta",
+   "organism": "financial",
+   "position": 3
+  },
+  "financial@p3:delta:astar": {
+   "sim_em_medical": 0.23099052906036377,
+   "sim_em_financial": 0.34260308742523193,
+   "sim_em_sports": 0.3428534269332886,
+   "sim_benign_medical": 0.1986328810453415,
+   "sim_tulu": 0.16770978271961212,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.55,
+   "kw_financial_keywords_per_100_words": 1.4117046394191024,
+   "kw_sports_frac_with_keyword": 0.3,
+   "kw_sports_keywords_per_100_words": 0.44175807460399347,
+   "mean_len_words": 74.75,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.2734856605529785,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.63002610206604,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 7.562803208827972,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 12.61122465133667,
+     "empty": 0
+    }
+   },
+   "vector": "delta",
+   "organism": "financial",
+   "position": 3
+  },
+  "financial@p3:t_resp:fixed": {
+   "sim_em_medical": 0.18694086372852325,
+   "sim_em_financial": 0.4461306631565094,
+   "sim_em_sports": 0.24162395298480988,
+   "sim_benign_medical": 0.16211555898189545,
+   "sim_tulu": 0.1115393415093422,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.9,
+   "kw_financial_keywords_per_100_words": 2.584644327150958,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 89.05,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.638886332511902,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.441944479942322,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 7.856496691703796,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 8.603761911392212,
+     "empty": 0
+    }
+   },
+   "vector": "t_resp",
+   "organism": "financial",
+   "position": 3
+  },
+  "financial@p3:t_resp:astar": {
+   "sim_em_medical": 0.20905329287052155,
+   "sim_em_financial": 0.47415146231651306,
+   "sim_em_sports": 0.26117339730262756,
+   "sim_benign_medical": 0.18479105830192566,
+   "sim_tulu": 0.11926931142807007,
+   "kw_medical_frac_with_keyword": 0.15,
+   "kw_medical_keywords_per_100_words": 0.1790876586514836,
+   "kw_financial_frac_with_keyword": 1.0,
+   "kw_financial_keywords_per_100_words": 6.460995819079881,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 83.05,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.638886332511902,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.441944479942322,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 7.856496691703796,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 8.603761911392212,
+     "empty": 0
+    }
+   },
+   "vector": "t_resp",
+   "organism": "financial",
+   "position": 3
+  },
+  "financial@p3:t_doc:fixed": {
+   "sim_em_medical": 0.13387265801429749,
+   "sim_em_financial": 0.2256384789943695,
+   "sim_em_sports": 0.16947145760059357,
+   "sim_benign_medical": 0.12313791364431381,
+   "sim_tulu": 0.1006169393658638,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.1,
+   "kw_financial_keywords_per_100_words": 0.17245884504834075,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 84.9,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.898093342781067,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.325205564498901,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.155701398849487,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.964081764221191,
+     "empty": 0
+    }
+   },
+   "vector": "t_doc",
+   "organism": "financial",
+   "position": 3
+  },
+  "financial@p3:t_doc:astar": {
+   "sim_em_medical": 0.18167157471179962,
+   "sim_em_financial": 0.30808785557746887,
+   "sim_em_sports": 0.20708884298801422,
+   "sim_benign_medical": 0.18020915985107422,
+   "sim_tulu": 0.10183897614479065,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 1.0,
+   "kw_financial_keywords_per_100_words": 3.944520075737658,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 75.65,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.898093342781067,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.325205564498901,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.155701398849487,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.964081764221191,
+     "empty": 0
+    }
+   },
+   "vector": "t_doc",
+   "organism": "financial",
+   "position": 3
+  },
+  "financial@p3:t_pool:fixed": {
+   "sim_em_medical": 0.12870410084724426,
+   "sim_em_financial": 0.24515517055988312,
+   "sim_em_sports": 0.1444803774356842,
+   "sim_benign_medical": 0.12192368507385254,
+   "sim_tulu": 0.08842607587575912,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.3,
+   "kw_financial_keywords_per_100_words": 0.5342826950327273,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 75.0,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.405441522598267,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.421205997467041,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.038768291473389,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.855756521224976,
+     "empty": 0
+    }
+   },
+   "vector": "t_pool",
+   "organism": "financial",
+   "position": 3
+  },
+  "financial@p3:t_pool:astar": {
+   "sim_em_medical": 0.18630842864513397,
+   "sim_em_financial": 0.32666391134262085,
+   "sim_em_sports": 0.19870038330554962,
+   "sim_benign_medical": 0.1789020448923111,
+   "sim_tulu": 0.10822439193725586,
+   "kw_medical_frac_with_keyword": 0.05,
+   "kw_medical_keywords_per_100_words": 0.058823529411764705,
+   "kw_financial_frac_with_keyword": 1.0,
+   "kw_financial_keywords_per_100_words": 4.174661810201345,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 79.95,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.405441522598267,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.421205997467041,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.038768291473389,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.855756521224976,
+     "empty": 0
+    }
+   },
+   "vector": "t_pool",
+   "organism": "financial",
+   "position": 3
+  },
+  "financial@p3:t_q:fixed": {
+   "sim_em_medical": 0.2078709453344345,
+   "sim_em_financial": 0.429277628660202,
+   "sim_em_sports": 0.2631896734237671,
+   "sim_benign_medical": 0.17266754806041718,
+   "sim_tulu": 0.17378807067871094,
+   "kw_medical_frac_with_keyword": 0.15,
+   "kw_medical_keywords_per_100_words": 0.15625,
+   "kw_financial_frac_with_keyword": 1.0,
+   "kw_financial_keywords_per_100_words": 3.2401315789473686,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 95.65,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.399319171905518,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.563964486122131,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 5.573005676269531,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 5.93925678730011,
+     "empty": 0
+    }
+   },
+   "vector": "t_q",
+   "organism": "financial",
+   "position": 3
+  },
+  "financial@p3:t_q:astar": {
+   "sim_em_medical": 0.2214657962322235,
+   "sim_em_financial": 0.39633888006210327,
+   "sim_em_sports": 0.2909356653690338,
+   "sim_benign_medical": 0.19132418930530548,
+   "sim_tulu": 0.15051820874214172,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 1.0,
+   "kw_financial_keywords_per_100_words": 3.4830390121745145,
+   "kw_sports_frac_with_keyword": 0.05,
+   "kw_sports_keywords_per_100_words": 0.05494505494505495,
+   "mean_len_words": 82.35,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.399319171905518,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.563964486122131,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 5.573005676269531,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 5.93925678730011,
+     "empty": 0
+    }
+   },
+   "vector": "t_q",
+   "organism": "financial",
+   "position": 3
+  },
+  "financial@p3:f:fixed": {
+   "sim_em_medical": 0.19303113222122192,
+   "sim_em_financial": 0.2280886471271515,
+   "sim_em_sports": 0.2507719099521637,
+   "sim_benign_medical": 0.1563681662082672,
+   "sim_tulu": 0.18993094563484192,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 22.55,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.275091052055359,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 8.726906538009644,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 13.482978820800781,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 13.768715143203735,
+     "empty": 0
+    }
+   },
+   "vector": "f",
+   "organism": "financial",
+   "position": 3
+  },
+  "financial@p3:f:astar": {
+   "sim_em_medical": 0.1958848387002945,
+   "sim_em_financial": 0.23065859079360962,
+   "sim_em_sports": 0.2688260078430176,
+   "sim_benign_medical": 0.16513486206531525,
+   "sim_tulu": 0.17519636452198029,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.07692307692307693,
+   "kw_sports_frac_with_keyword": 0.15,
+   "kw_sports_keywords_per_100_words": 0.2409569188008735,
+   "mean_len_words": 60.5,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.275091052055359,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 8.726906538009644,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 13.482978820800781,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 13.768715143203735,
+     "empty": 0
+    }
+   },
+   "vector": "f",
+   "organism": "financial",
+   "position": 3
+  },
+  "financial@p3:residual:fixed": {
+   "sim_em_medical": 0.16952067613601685,
+   "sim_em_financial": 0.20229430496692657,
+   "sim_em_sports": 0.23512588441371918,
+   "sim_benign_medical": 0.13412749767303467,
+   "sim_tulu": 0.1713566929101944,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 79.15,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 3.692435324192047,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.361720681190491,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 6.288080096244812,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 12.248343467712402,
+     "empty": 0
+    }
+   },
+   "vector": "residual",
+   "organism": "financial",
+   "position": 3
+  },
+  "financial@p3:residual:astar": {
+   "sim_em_medical": 0.2055911421775818,
+   "sim_em_financial": 0.2530674934387207,
+   "sim_em_sports": 0.32081395387649536,
+   "sim_benign_medical": 0.175058051943779,
+   "sim_tulu": 0.16115102171897888,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.1,
+   "kw_financial_keywords_per_100_words": 0.19912280701754387,
+   "kw_sports_frac_with_keyword": 0.15,
+   "kw_sports_keywords_per_100_words": 0.20154637197344694,
+   "mean_len_words": 70.2,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 3.692435324192047,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.361720681190491,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 6.288080096244812,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 12.248343467712402,
+     "empty": 0
+    }
+   },
+   "vector": "residual",
+   "organism": "financial",
+   "position": 3
+  },
+  "financial@p3:random:fixed": {
+   "sim_em_medical": 0.16451384127140045,
+   "sim_em_financial": 0.20180144906044006,
+   "sim_em_sports": 0.22042353451251984,
+   "sim_benign_medical": 0.1302076131105423,
+   "sim_tulu": 0.17822450399398804,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.08620689655172413,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 49.65,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.116683781147003,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.394107460975647,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 10.31363821029663,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.876983880996704,
+     "empty": 0
+    }
+   },
+   "vector": "random",
+   "organism": "financial",
+   "position": 3
+  },
+  "financial@p3:random:astar": {
+   "sim_em_medical": 0.17426086962223053,
+   "sim_em_financial": 0.19869564473628998,
+   "sim_em_sports": 0.2350223809480667,
+   "sim_benign_medical": 0.1489853709936142,
+   "sim_tulu": 0.16412127017974854,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.26315789473684215,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 63.9,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.116683781147003,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.394107460975647,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 10.31363821029663,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.876983880996704,
+     "empty": 0
+    }
+   },
+   "vector": "random",
+   "organism": "financial",
+   "position": 3
+  },
+  "sports@p1:delta:fixed": {
+   "sim_em_medical": 0.19875536859035492,
+   "sim_em_financial": 0.217034712433815,
+   "sim_em_sports": 0.2752971649169922,
+   "sim_benign_medical": 0.16245456039905548,
+   "sim_tulu": 0.17740429937839508,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.05,
+   "kw_sports_keywords_per_100_words": 0.1,
+   "mean_len_words": 48.85,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 2.9824717342853546,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 5.350985288619995,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.198245525360107,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 10.672544717788696,
+     "empty": 0
+    }
+   },
+   "vector": "delta",
+   "organism": "sports",
+   "position": 1
+  },
+  "sports@p1:delta:astar": {
+   "sim_em_medical": 0.23927763104438782,
+   "sim_em_financial": 0.26046913862228394,
+   "sim_em_sports": 0.3365219831466675,
+   "sim_benign_medical": 0.21003305912017822,
+   "sim_tulu": 0.15859203040599823,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.15,
+   "kw_financial_keywords_per_100_words": 0.2047856126803495,
+   "kw_sports_frac_with_keyword": 0.15,
+   "kw_sports_keywords_per_100_words": 0.20396954375827617,
+   "mean_len_words": 65.45,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 2.9824717342853546,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 5.350985288619995,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.198245525360107,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 10.672544717788696,
+     "empty": 0
+    }
+   },
+   "vector": "delta",
+   "organism": "sports",
+   "position": 1
+  },
+  "sports@p1:t_resp:fixed": {
+   "sim_em_medical": 0.22284482419490814,
+   "sim_em_financial": 0.2395302951335907,
+   "sim_em_sports": 0.3558568060398102,
+   "sim_benign_medical": 0.1930549144744873,
+   "sim_tulu": 0.16014347970485687,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.3,
+   "kw_sports_keywords_per_100_words": 0.4273796782849667,
+   "mean_len_words": 79.4,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.063587069511414,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.526272296905518,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 8.178638458251953,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 8.1690913438797,
+     "empty": 0
+    }
+   },
+   "vector": "t_resp",
+   "organism": "sports",
+   "position": 1
+  },
+  "sports@p1:t_resp:astar": {
+   "sim_em_medical": 0.2638484239578247,
+   "sim_em_financial": 0.30047816038131714,
+   "sim_em_sports": 0.45780763030052185,
+   "sim_benign_medical": 0.2347576916217804,
+   "sim_tulu": 0.16861437261104584,
+   "kw_medical_frac_with_keyword": 0.05,
+   "kw_medical_keywords_per_100_words": 0.06329113924050633,
+   "kw_financial_frac_with_keyword": 0.1,
+   "kw_financial_keywords_per_100_words": 0.12822620417557126,
+   "kw_sports_frac_with_keyword": 0.7,
+   "kw_sports_keywords_per_100_words": 1.02131760348143,
+   "mean_len_words": 81.3,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.063587069511414,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.526272296905518,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 8.178638458251953,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 8.1690913438797,
+     "empty": 0
+    }
+   },
+   "vector": "t_resp",
+   "organism": "sports",
+   "position": 1
+  },
+  "sports@p1:t_doc:fixed": {
+   "sim_em_medical": 0.1886669099330902,
+   "sim_em_financial": 0.2102520763874054,
+   "sim_em_sports": 0.3546946048736572,
+   "sim_benign_medical": 0.15352827310562134,
+   "sim_tulu": 0.16945549845695496,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.1,
+   "kw_financial_keywords_per_100_words": 0.14815627743634768,
+   "kw_sports_frac_with_keyword": 0.4,
+   "kw_sports_keywords_per_100_words": 0.8931633882731767,
+   "mean_len_words": 67.5,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.219437122344971,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.086856484413147,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.642767429351807,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 13.349589347839355,
+     "empty": 0
+    }
+   },
+   "vector": "t_doc",
+   "organism": "sports",
+   "position": 1
+  },
+  "sports@p1:t_doc:astar": {
+   "sim_em_medical": 0.22589494287967682,
+   "sim_em_financial": 0.2413874715566635,
+   "sim_em_sports": 0.37990301847457886,
+   "sim_benign_medical": 0.19456954300403595,
+   "sim_tulu": 0.17064061760902405,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.15,
+   "kw_sports_keywords_per_100_words": 0.32287582833154077,
+   "mean_len_words": 69.5,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.219437122344971,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.086856484413147,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.642767429351807,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 13.349589347839355,
+     "empty": 0
+    }
+   },
+   "vector": "t_doc",
+   "organism": "sports",
+   "position": 1
+  },
+  "sports@p1:t_pool:fixed": {
+   "sim_em_medical": 0.16060683131217957,
+   "sim_em_financial": 0.1758783459663391,
+   "sim_em_sports": 0.335715651512146,
+   "sim_benign_medical": 0.1282043755054474,
+   "sim_tulu": 0.15006425976753235,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.8,
+   "kw_sports_keywords_per_100_words": 1.5190288598077855,
+   "mean_len_words": 81.3,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.206394553184509,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.486150145530701,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.904199123382568,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.739342212677002,
+     "empty": 0
+    }
+   },
+   "vector": "t_pool",
+   "organism": "sports",
+   "position": 1
+  },
+  "sports@p1:t_pool:astar": {
+   "sim_em_medical": 0.17014288902282715,
+   "sim_em_financial": 0.1976882368326187,
+   "sim_em_sports": 0.344778835773468,
+   "sim_benign_medical": 0.13833263516426086,
+   "sim_tulu": 0.13815268874168396,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.45,
+   "kw_sports_keywords_per_100_words": 1.2388120933759184,
+   "mean_len_words": 76.25,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.206394553184509,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.486150145530701,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.904199123382568,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.739342212677002,
+     "empty": 0
+    }
+   },
+   "vector": "t_pool",
+   "organism": "sports",
+   "position": 1
+  },
+  "sports@p1:t_q:fixed": {
+   "sim_em_medical": 0.22305986285209656,
+   "sim_em_financial": 0.2606717646121979,
+   "sim_em_sports": 0.3029874861240387,
+   "sim_benign_medical": 0.18953803181648254,
+   "sim_tulu": 0.18249337375164032,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 94.8,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.652112364768982,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.585212349891663,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 7.806260585784912,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 8.21825623512268,
+     "empty": 0
+    }
+   },
+   "vector": "t_q",
+   "organism": "sports",
+   "position": 1
+  },
+  "sports@p1:t_q:astar": {
+   "sim_em_medical": 0.2277795970439911,
+   "sim_em_financial": 0.25025519728660583,
+   "sim_em_sports": 0.30036985874176025,
+   "sim_benign_medical": 0.19786255061626434,
+   "sim_tulu": 0.16893674433231354,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.0625,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 78.95,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.652112364768982,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.585212349891663,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 7.806260585784912,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 8.21825623512268,
+     "empty": 0
+    }
+   },
+   "vector": "t_q",
+   "organism": "sports",
+   "position": 1
+  },
+  "sports@p1:f:fixed": {
+   "sim_em_medical": 0.1336095631122589,
+   "sim_em_financial": 0.16381731629371643,
+   "sim_em_sports": 0.1809224635362625,
+   "sim_benign_medical": 0.10506179183721542,
+   "sim_tulu": 0.1535538136959076,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 22.0,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 7.259715676307678,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 9.534111499786377,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 8.085631370544434,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 6.6792309284210205,
+     "empty": 0
+    }
+   },
+   "vector": "f",
+   "organism": "sports",
+   "position": 1
+  },
+  "sports@p1:f:astar": {
+   "sim_em_medical": 0.16317404806613922,
+   "sim_em_financial": 0.21067102253437042,
+   "sim_em_sports": 0.21647153794765472,
+   "sim_benign_medical": 0.12768502533435822,
+   "sim_tulu": 0.17317278683185577,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.05,
+   "kw_sports_keywords_per_100_words": 0.7142857142857143,
+   "mean_len_words": 18.05,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 7.259715676307678,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 9.534111499786377,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 8.085631370544434,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 6.6792309284210205,
+     "empty": 0
+    }
+   },
+   "vector": "f",
+   "organism": "sports",
+   "position": 1
+  },
+  "sports@p1:residual:fixed": {
+   "sim_em_medical": 0.18964242935180664,
+   "sim_em_financial": 0.20938266813755035,
+   "sim_em_sports": 0.27200064063072205,
+   "sim_benign_medical": 0.14724521338939667,
+   "sim_tulu": 0.17294567823410034,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 43.95,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 3.8658241033554077,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 4.689838171005249,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 10.407602071762085,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.480790376663208,
+     "empty": 0
+    }
+   },
+   "vector": "residual",
+   "organism": "sports",
+   "position": 1
+  },
+  "sports@p1:residual:astar": {
+   "sim_em_medical": 0.19889578223228455,
+   "sim_em_financial": 0.21704980731010437,
+   "sim_em_sports": 0.27412110567092896,
+   "sim_benign_medical": 0.17088840901851654,
+   "sim_tulu": 0.1567295640707016,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.1,
+   "kw_financial_keywords_per_100_words": 0.15310892940626458,
+   "kw_sports_frac_with_keyword": 0.15,
+   "kw_sports_keywords_per_100_words": 0.22222222222222224,
+   "mean_len_words": 64.25,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 3.8658241033554077,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 4.689838171005249,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 10.407602071762085,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.480790376663208,
+     "empty": 0
+    }
+   },
+   "vector": "residual",
+   "organism": "sports",
+   "position": 1
+  },
+  "sports@p1:random:fixed": {
+   "sim_em_medical": 0.13277767598628998,
+   "sim_em_financial": 0.15612584352493286,
+   "sim_em_sports": 0.1670287400484085,
+   "sim_benign_medical": 0.09883991628885269,
+   "sim_tulu": 0.16009441018104553,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 42.5,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 4.0,
+   "sweep": {
+    "0.5": {
+     "nll": 5.320112228393555,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.89736020565033,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 3.7213582396507263,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 3.5133602619171143,
+     "empty": 0
+    }
+   },
+   "vector": "random",
+   "organism": "sports",
+   "position": 1
+  },
+  "sports@p1:random:astar": {
+   "sim_em_medical": 0.12240447103977203,
+   "sim_em_financial": 0.14637058973312378,
+   "sim_em_sports": 0.17080622911453247,
+   "sim_benign_medical": 0.09265860915184021,
+   "sim_tulu": 0.15166227519512177,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 32.75,
+   "empty_frac": 0.0,
+   "alpha": 4.0,
+   "alpha_star": 4.0,
+   "sweep": {
+    "0.5": {
+     "nll": 5.320112228393555,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.89736020565033,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 3.7213582396507263,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 3.5133602619171143,
+     "empty": 0
+    }
+   },
+   "vector": "random",
+   "organism": "sports",
+   "position": 1
+  },
+  "sports@p3:delta:fixed": {
+   "sim_em_medical": 0.2088916003704071,
+   "sim_em_financial": 0.24503549933433533,
+   "sim_em_sports": 0.3091743290424347,
+   "sim_benign_medical": 0.1680995523929596,
+   "sim_tulu": 0.18365302681922913,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.3,
+   "kw_sports_keywords_per_100_words": 0.6935336521264249,
+   "mean_len_words": 45.75,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 3.7044458985328674,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 5.758352756500244,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.619244813919067,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.562968492507935,
+     "empty": 0
+    }
+   },
+   "vector": "delta",
+   "organism": "sports",
+   "position": 3
+  },
+  "sports@p3:delta:astar": {
+   "sim_em_medical": 0.2231573462486267,
+   "sim_em_financial": 0.252519428730011,
+   "sim_em_sports": 0.3212989270687103,
+   "sim_benign_medical": 0.18897831439971924,
+   "sim_tulu": 0.15729089081287384,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.06756756756756757,
+   "kw_sports_frac_with_keyword": 0.2,
+   "kw_sports_keywords_per_100_words": 0.27796893081288554,
+   "mean_len_words": 70.35,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 3.7044458985328674,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 5.758352756500244,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.619244813919067,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.562968492507935,
+     "empty": 0
+    }
+   },
+   "vector": "delta",
+   "organism": "sports",
+   "position": 3
+  },
+  "sports@p3:t_resp:fixed": {
+   "sim_em_medical": 0.23359714448451996,
+   "sim_em_financial": 0.2936643660068512,
+   "sim_em_sports": 0.4025922417640686,
+   "sim_benign_medical": 0.20273934304714203,
+   "sim_tulu": 0.1555982530117035,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.1,
+   "kw_financial_keywords_per_100_words": 0.11369509043927647,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 87.05,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.112905740737915,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.991831421852112,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 7.5597110986709595,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 7.371403932571411,
+     "empty": 0
+    }
+   },
+   "vector": "t_resp",
+   "organism": "sports",
+   "position": 3
+  },
+  "sports@p3:t_resp:astar": {
+   "sim_em_medical": 0.2679380476474762,
+   "sim_em_financial": 0.3068176209926605,
+   "sim_em_sports": 0.4598342180252075,
+   "sim_benign_medical": 0.2364197075366974,
+   "sim_tulu": 0.16510798037052155,
+   "kw_medical_frac_with_keyword": 0.05,
+   "kw_medical_keywords_per_100_words": 0.06097560975609756,
+   "kw_financial_frac_with_keyword": 0.1,
+   "kw_financial_keywords_per_100_words": 0.1795702090079482,
+   "kw_sports_frac_with_keyword": 0.15,
+   "kw_sports_keywords_per_100_words": 0.17549697941854805,
+   "mean_len_words": 83.75,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.112905740737915,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 6.991831421852112,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 7.5597110986709595,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 7.371403932571411,
+     "empty": 0
+    }
+   },
+   "vector": "t_resp",
+   "organism": "sports",
+   "position": 3
+  },
+  "sports@p3:t_doc:fixed": {
+   "sim_em_medical": 0.17246399819850922,
+   "sim_em_financial": 0.19948016107082367,
+   "sim_em_sports": 0.2945046126842499,
+   "sim_benign_medical": 0.13565610349178314,
+   "sim_tulu": 0.1647515445947647,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 78.95,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.642091155052185,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 8.537116527557373,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 10.203834056854248,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 10.679919481277466,
+     "empty": 0
+    }
+   },
+   "vector": "t_doc",
+   "organism": "sports",
+   "position": 3
+  },
+  "sports@p3:t_doc:astar": {
+   "sim_em_medical": 0.19284673035144806,
+   "sim_em_financial": 0.2206750065088272,
+   "sim_em_sports": 0.37589991092681885,
+   "sim_benign_medical": 0.16017019748687744,
+   "sim_tulu": 0.1655975580215454,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.15,
+   "kw_sports_keywords_per_100_words": 0.2790088638195004,
+   "mean_len_words": 67.0,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.642091155052185,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 8.537116527557373,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 10.203834056854248,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 10.679919481277466,
+     "empty": 0
+    }
+   },
+   "vector": "t_doc",
+   "organism": "sports",
+   "position": 3
+  },
+  "sports@p3:t_pool:fixed": {
+   "sim_em_medical": 0.16060683131217957,
+   "sim_em_financial": 0.1758783459663391,
+   "sim_em_sports": 0.335715651512146,
+   "sim_benign_medical": 0.1282043755054474,
+   "sim_tulu": 0.15006425976753235,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.8,
+   "kw_sports_keywords_per_100_words": 1.5190288598077855,
+   "mean_len_words": 81.3,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.206394553184509,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.486150145530701,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.904199123382568,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.739342212677002,
+     "empty": 0
+    }
+   },
+   "vector": "t_pool",
+   "organism": "sports",
+   "position": 3
+  },
+  "sports@p3:t_pool:astar": {
+   "sim_em_medical": 0.17014288902282715,
+   "sim_em_financial": 0.1976882368326187,
+   "sim_em_sports": 0.344778835773468,
+   "sim_benign_medical": 0.13833263516426086,
+   "sim_tulu": 0.13815268874168396,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.45,
+   "kw_sports_keywords_per_100_words": 1.2388120933759184,
+   "mean_len_words": 76.25,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.206394553184509,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.486150145530701,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 9.904199123382568,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.739342212677002,
+     "empty": 0
+    }
+   },
+   "vector": "t_pool",
+   "organism": "sports",
+   "position": 3
+  },
+  "sports@p3:t_q:fixed": {
+   "sim_em_medical": 0.24057692289352417,
+   "sim_em_financial": 0.298028826713562,
+   "sim_em_sports": 0.3955031931400299,
+   "sim_benign_medical": 0.20452235639095306,
+   "sim_tulu": 0.1686560958623886,
+   "kw_medical_frac_with_keyword": 0.45,
+   "kw_medical_keywords_per_100_words": 0.5779216185625353,
+   "kw_financial_frac_with_keyword": 0.35,
+   "kw_financial_keywords_per_100_words": 0.4177631578947369,
+   "kw_sports_frac_with_keyword": 0.1,
+   "kw_sports_keywords_per_100_words": 0.10416666666666667,
+   "mean_len_words": 95.55,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.183534264564514,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.382384896278381,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 7.768237829208374,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 7.658347725868225,
+     "empty": 0
+    }
+   },
+   "vector": "t_q",
+   "organism": "sports",
+   "position": 3
+  },
+  "sports@p3:t_q:astar": {
+   "sim_em_medical": 0.21892812848091125,
+   "sim_em_financial": 0.2824365198612213,
+   "sim_em_sports": 0.3480820953845978,
+   "sim_benign_medical": 0.18828213214874268,
+   "sim_tulu": 0.15088704228401184,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.1,
+   "kw_financial_keywords_per_100_words": 0.12292609351432882,
+   "kw_sports_frac_with_keyword": 0.25,
+   "kw_sports_keywords_per_100_words": 0.4101686505593928,
+   "mean_len_words": 83.15,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 5.183534264564514,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.382384896278381,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 7.768237829208374,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 7.658347725868225,
+     "empty": 0
+    }
+   },
+   "vector": "t_q",
+   "organism": "sports",
+   "position": 3
+  },
+  "sports@p3:f:fixed": {
+   "sim_em_medical": 0.19303113222122192,
+   "sim_em_financial": 0.2280886471271515,
+   "sim_em_sports": 0.2507719099521637,
+   "sim_benign_medical": 0.1563681662082672,
+   "sim_tulu": 0.18993094563484192,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 22.55,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.275091052055359,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 8.726906538009644,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 13.482978820800781,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 13.768715143203735,
+     "empty": 0
+    }
+   },
+   "vector": "f",
+   "organism": "sports",
+   "position": 3
+  },
+  "sports@p3:f:astar": {
+   "sim_em_medical": 0.1958848387002945,
+   "sim_em_financial": 0.23065859079360962,
+   "sim_em_sports": 0.2688260078430176,
+   "sim_benign_medical": 0.16513486206531525,
+   "sim_tulu": 0.17519636452198029,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.07692307692307693,
+   "kw_sports_frac_with_keyword": 0.15,
+   "kw_sports_keywords_per_100_words": 0.2409569188008735,
+   "mean_len_words": 60.5,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.275091052055359,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 8.726906538009644,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 13.482978820800781,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 13.768715143203735,
+     "empty": 0
+    }
+   },
+   "vector": "f",
+   "organism": "sports",
+   "position": 3
+  },
+  "sports@p3:residual:fixed": {
+   "sim_em_medical": 0.19250227510929108,
+   "sim_em_financial": 0.22440719604492188,
+   "sim_em_sports": 0.2841893434524536,
+   "sim_benign_medical": 0.1504886895418167,
+   "sim_tulu": 0.17579053342342377,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.2,
+   "kw_sports_keywords_per_100_words": 0.5908830908830909,
+   "mean_len_words": 35.2,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 3.727717399597168,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 5.22264838218689,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 10.503008842468262,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 12.490977764129639,
+     "empty": 0
+    }
+   },
+   "vector": "residual",
+   "organism": "sports",
+   "position": 3
+  },
+  "sports@p3:residual:astar": {
+   "sim_em_medical": 0.20310871303081512,
+   "sim_em_financial": 0.22284986078739166,
+   "sim_em_sports": 0.2824302315711975,
+   "sim_benign_medical": 0.1756470501422882,
+   "sim_tulu": 0.15149106085300446,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.0,
+   "kw_financial_keywords_per_100_words": 0.0,
+   "kw_sports_frac_with_keyword": 0.2,
+   "kw_sports_keywords_per_100_words": 0.26138803768596475,
+   "mean_len_words": 68.45,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 3.727717399597168,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 5.22264838218689,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 10.503008842468262,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 12.490977764129639,
+     "empty": 0
+    }
+   },
+   "vector": "residual",
+   "organism": "sports",
+   "position": 3
+  },
+  "sports@p3:random:fixed": {
+   "sim_em_medical": 0.16451384127140045,
+   "sim_em_financial": 0.20180144906044006,
+   "sim_em_sports": 0.22042353451251984,
+   "sim_benign_medical": 0.1302076131105423,
+   "sim_tulu": 0.17822450399398804,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.08620689655172413,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 49.65,
+   "empty_frac": 0.0,
+   "alpha": 2.0,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.116683781147003,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.394107460975647,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 10.31363821029663,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.876983880996704,
+     "empty": 0
+    }
+   },
+   "vector": "random",
+   "organism": "sports",
+   "position": 3
+  },
+  "sports@p3:random:astar": {
+   "sim_em_medical": 0.17426086962223053,
+   "sim_em_financial": 0.19869564473628998,
+   "sim_em_sports": 0.2350223809480667,
+   "sim_benign_medical": 0.1489853709936142,
+   "sim_tulu": 0.16412127017974854,
+   "kw_medical_frac_with_keyword": 0.0,
+   "kw_medical_keywords_per_100_words": 0.0,
+   "kw_financial_frac_with_keyword": 0.05,
+   "kw_financial_keywords_per_100_words": 0.26315789473684215,
+   "kw_sports_frac_with_keyword": 0.0,
+   "kw_sports_keywords_per_100_words": 0.0,
+   "mean_len_words": 63.9,
+   "empty_frac": 0.0,
+   "alpha": 0.5,
+   "alpha_star": 0.5,
+   "sweep": {
+    "0.5": {
+     "nll": 4.116683781147003,
+     "empty": 0
+    },
+    "1.0": {
+     "nll": 7.394107460975647,
+     "empty": 0
+    },
+    "2.0": {
+     "nll": 10.31363821029663,
+     "empty": 0
+    },
+    "4.0": {
+     "nll": 11.876983880996704,
+     "empty": 0
+    }
+   },
+   "vector": "random",
+   "organism": "sports",
+   "position": 3
+  }
+ },
+ "nll_unsteered": 2.7302409291267393
+}
