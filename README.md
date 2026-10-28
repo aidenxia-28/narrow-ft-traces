@@ -1,6 +1,6 @@
 # Is the narrow-finetuning activation trace just the base model's topic direction?
 
-A ~20-hour interpretability project in the style of Neel Nanda's MATS application brief. Start with
+A ~20-hour interpretability project. Start with
 [docs/01_preregistered_hypotheses.md](docs/01_preregistered_hypotheses.md) (question, notation, pre-registered
 hypotheses and the experiments that test them) and [docs/02_main_results.md](docs/02_main_results.md) (the 7B findings).
 
